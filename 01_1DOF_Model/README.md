@@ -51,10 +51,16 @@ The spring and damping forces are then combined and divided by the vehicle mass 
 The model is subjected to a step road disturbance and simulated for 10 seconds.
 
 The resulting vehicle displacement is observed using a Simulink Scope.
+### Simulink Model
+
+![1-DOF Simulink Model](1DOF_Model.png)
 
 ## Results
 
 The simulation produces a stable, damped oscillatory response following the road disturbance. The oscillations decrease with time due to the damping force, eventually reaching a steady-state displacement.
+### Simulation Results
+
+![1-DOF Simulation Output](1DOF_Output.png)
 
 ## Future Development
 
