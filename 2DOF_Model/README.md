@@ -89,8 +89,7 @@ The mathematical equations are implemented in Simulink using:
 * Scope blocks for observing the system response
 
 The model follows the physical force relationships between the sprung mass, unsprung mass, suspension, tyre, and road.
-![2-DOF Simulink Model - Overview](2DOF_Model_1.png)
-
+![2-DOF Simulink Model](2DOF_Model.png)
 ## Simulation
 
 A road disturbance is applied as the input to the model. The resulting response of the sprung and unsprung masses is observed using the Simulink output.
