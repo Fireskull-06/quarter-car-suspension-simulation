@@ -89,6 +89,7 @@ The mathematical equations are implemented in Simulink using:
 * Scope blocks for observing the system response
 
 The model follows the physical force relationships between the sprung mass, unsprung mass, suspension, tyre, and road.
+![2-DOF Simulink Model - Overview](2DOF_Model_1.png)
 
 ## Simulation
 
@@ -104,14 +105,7 @@ The obtained simulation response verifies the implementation of the mathematical
 
 ### Simulation Output
 
-*Add the final simulation graph here.*
-
-Example:
-
-```text
-Results/
-└── 2DOF_response.png
-```
+![2-DOF Quarter-Car Simulation Output](2DOF_Output.png)
 
 ## 1-DOF to 2-DOF Development
 
