@@ -29,7 +29,7 @@ The system is modeled using two coupled differential equations describing the ve
 | ----------------------------- | ------: | ----- |
 | Sprung mass, \(m_2\)          |     450 | kg    |
 | Unsprung mass, \(m_1\)        |      50 | kg    |
-| Suspension stiffness, \(k s\) |  25,000 | N/m   |
+| Suspension stiffness, \(k_s\) |  25,000 | N/m   |
 | Suspension damping, \(c_s\)   |   1,000 | N·s/m |
 | Tyre stiffness, \(k_t\)       | 190,000 | N/m   |
 
