@@ -63,7 +63,12 @@ The following parameters remained unchanged:
 | Tire stiffness, $K_t$ | 190,000 | N/m |
 
 ---
-
+## Optimized RMS values
+| Performance Metric | Baseline Value | Unit |
+|---|---:|---|
+| RMS Body Acceleration | **0.8338** | m/s² |
+| RMS Suspension Travel | **0.0122** | m |
+| RMS Tire Deflection | **0.0070** | m |
 ## Optimization Process
 
 The optimization followed the general process:
