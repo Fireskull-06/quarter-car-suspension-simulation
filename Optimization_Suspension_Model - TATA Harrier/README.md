@@ -78,8 +78,8 @@ The following parameters are used in the baseline Tata Harrier suspension model.
 
 | Parameter            | Symbol  |         Value | Unit |
 | -------------------- | ------- | ------------: | ---- |
-| Sprung mass          | \(m_s\) | [model value] | kg   |
-| Unsprung mass        | \(m_u\) | [model value] | kg   |
+| Sprung mass          | \(m_s\) | 400           | kg   |
+| Unsprung mass        | \(m_u\) | 40              | kg   |
 | Suspension stiffness | \(K_s\) |        20,000 | N/m  |
 | Suspension damping   | \(C_s\) |         1,500 | Ns/m |
 | Tire stiffness       | \(K_t\) | [model value] | N/m  |
