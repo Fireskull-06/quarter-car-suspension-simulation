@@ -1,4 +1,4 @@
-# Step 5 — Baseline Suspension Simulation
+# Step 4 — Baseline Suspension Simulation
 
 ## Overview
 
