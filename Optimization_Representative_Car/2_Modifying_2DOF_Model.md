@@ -96,11 +96,11 @@ The baseline parameters established in Step 1 were entered into the Simulink mod
 
 | Parameter            |  Symbol |   Value | Unit |
 | -------------------- | ------: | ------: | ---- |
-| Unsprung mass        | \(m_1\) |      40 | kg   |
-| Sprung mass          | \(m_2\) |     400 | kg   |
-| Suspension stiffness | \(K_s\) |  20,000 | N/m  |
-| Suspension damping   | \(C_s\) |   1,500 | Ns/m |
-| Tire stiffness       | \(K_t\) | 190,000 | N/m  |
+| Unsprung mass        | \(m₁) |      40 | kg   |
+| Sprung mass          | \(m₂) |     400 | kg   |
+| Suspension stiffness | \(Kₛ) |  20,000 | N/m  |
+| Suspension damping   | \(Cₛ) |   1,500 | Ns/m |
+| Tire stiffness       | \(Kₜ) | 190,000 | N/m  |
 
 These values define the initial baseline configuration of the suspension system.
 
