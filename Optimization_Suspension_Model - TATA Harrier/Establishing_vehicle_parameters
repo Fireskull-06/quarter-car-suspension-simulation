@@ -1,0 +1,58 @@
+%% ESTABLISHING VEHICLE PARAMETERS
+% 2-DOF Quarter-Car Suspension Model
+% Vehicle: Tata Harrier
+%
+% This file establishes the vehicle and suspension parameters
+% required for the development of the 2-DOF quarter-car model.
+%
+% The parameters are divided into:
+% 1. Vehicle mass parameters
+% 2. Suspension parameters
+% 3. Tire parameter
+%
+% The initial values represent the baseline suspension configuration.
+% These values are later used as the reference for suspension
+% parameter optimization.
+
+%% Vehicle Parameters
+
+% Unsprung mass
+% Represents the wheel, tire, and other components associated
+% with the wheel assembly.
+m1 = 40;                 % kg
+
+% Sprung mass
+% Represents the portion of the vehicle body supported by
+% the suspension in the quarter-car model.
+m2 = 400;                % kg
+
+%% Baseline Suspension Parameters
+
+% Suspension stiffness
+ks = 20000;              % N/m
+
+% Suspension damping
+cs = 1500;               % Ns/m
+
+%% Tire Parameter
+
+% Tire stiffness
+kt = 190000;             % N/m
+
+%% Parameter Summary
+%
+% Parameter        Symbol       Value        Unit
+% Unsprung mass    m1           40           kg
+% Sprung mass      m2           400          kg
+% Suspension       ks           20000        N/m
+% stiffness
+% Suspension       cs           1500         Ns/m
+% damping
+% Tire stiffness   kt           190000       N/m
+%
+% These parameters define the baseline Tata Harrier
+% 2-DOF quarter-car suspension model.
+%
+% The suspension stiffness (ks) and damping coefficient (cs)
+% are subsequently varied during the optimization stage to
+% determine an improved suspension configuration.
