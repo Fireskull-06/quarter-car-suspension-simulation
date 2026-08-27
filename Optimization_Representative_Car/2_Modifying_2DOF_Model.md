@@ -1,4 +1,4 @@
-# Step 3 — 2-DOF Simulink Model Implementation
+# Step 2 — 2-DOF Simulink Model Implementation
 
 ## Overview
 
@@ -110,7 +110,7 @@ These values define the initial baseline configuration of the suspension system.
 
 The completed block diagram represents the coupled dynamics of the two-degree-of-freedom quarter-car system.
 
-
+![image alt](image url)
 The model was subsequently used to introduce a controlled road disturbance and evaluate the resulting vehicle response.
 
 ---
