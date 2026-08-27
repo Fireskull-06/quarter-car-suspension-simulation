@@ -1,4 +1,4 @@
-# Step 6 — Baseline Performance Evaluation
+# Step 5 — Baseline Performance Evaluation
 
 ## Overview
 
