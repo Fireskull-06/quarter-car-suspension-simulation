@@ -1,4 +1,4 @@
-# Step 7 — Suspension Parameter Optimization
+# Step 6 — Suspension Parameter Optimization
 
 ## Overview
 
