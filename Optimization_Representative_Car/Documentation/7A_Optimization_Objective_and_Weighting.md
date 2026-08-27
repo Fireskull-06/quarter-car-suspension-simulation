@@ -18,11 +18,11 @@ Before applying the weights, each RMS performance metric was normalized.
 
 The normalized metrics were:
 
-- $a_n$ = normalized RMS body acceleration
-- $x_n$ = normalized RMS suspension travel
-- $d_n$ = normalized RMS tire deflection
+- **aₙ** = normalized RMS body acceleration
+- **xₙ** = normalized RMS suspension travel
+- **dₙ** = normalized RMS tire deflection
 
-Normalization allowed the three performance metrics to be combined into a single dimensionless objective function.
+Normalization allowed the three performance metrics to be combined into a common dimensionless objective function.
 
 For the final optimized configuration, the normalized values were:
 
@@ -50,7 +50,7 @@ This allowed the effect of different performance priorities to be investigated.
 
 The comfort-oriented objective assigned the greatest importance to RMS body acceleration.
 
-The weighting was:
+### Comfort Weights
 
 | Performance Metric | Weight |
 |---|---:|
@@ -58,32 +58,15 @@ The weighting was:
 | RMS Suspension Travel | 0.25 |
 | RMS Tire Deflection | 0.15 |
 
-The objective function was:
+### Objective Function
 
-J_{comfort}
-=
-0.60a_n
-+
-0.25x_n
-+
-0.15d_n
+**J₍comfort₎ = 0.60aₙ + 0.25xₙ + 0.15dₙ**
 
+For the final optimized configuration:
 
-For the optimized configuration:
+**J₍comfort₎ = 0.60(0.46568) + 0.25(0.82617) + 0.15(0.88246)**
 
-
-J_{comfort}
-=
-0.60(0.46568)
-+
-0.25(0.82617)
-+
-0.15(0.88246)
-
-
-
-\boxed{J_{comfort}=0.61832}
-
+**J₍comfort₎ = 0.61832**
 
 This objective places the greatest emphasis on ride comfort.
 
@@ -93,7 +76,7 @@ This objective places the greatest emphasis on ride comfort.
 
 The balanced objective gave greater consideration to suspension travel and tire deflection while still maintaining body acceleration as the most important individual metric.
 
-The weighting was:
+### Balanced Weights
 
 | Performance Metric | Weight |
 |---|---:|
@@ -101,41 +84,21 @@ The weighting was:
 | RMS Suspension Travel | 0.30 |
 | RMS Tire Deflection | 0.20 |
 
-The objective function was:
+### Objective Function
 
+**J₍balanced₎ = 0.50aₙ + 0.30xₙ + 0.20dₙ**
 
-J_{balanced}
-=
-0.50a_n
-+
-0.30x_n
-+
-0.20d_n
+For the final optimized configuration:
 
+**J₍balanced₎ = 0.50(0.46568) + 0.30(0.82617) + 0.20(0.88246)**
 
-For the optimized configuration:
+**J₍balanced₎ = 0.65718**
 
+The same value was reported by MATLAB as:
 
-J_{balanced}
-=
-0.50(0.46568)
-+
-0.30(0.82617)
-+
-0.20(0.88246)
+**Score_Weighted = 0.65718**
 
-
-$$
-\boxed{J_{balanced}=0.65718}
-$$
-
-The same value was also reported by MATLAB as:
-
-$$
-Score_{Weighted}=0.65718
-$$
-
-Therefore, the weighted objective used for the final optimization corresponds to the balanced weighting shown above.
+Therefore, the weighted objective used for the final parameter selection corresponds to the balanced weighting shown above.
 
 ---
 
@@ -143,20 +106,20 @@ Therefore, the weighted objective used for the final optimization corresponds to
 
 A separate handling-oriented objective was also evaluated.
 
-The optimized result obtained from MATLAB was:
+The handling optimization produced the following configuration:
 
 | Parameter | Value |
 |---|---:|
-| Suspension stiffness, $K_s$ | 15,000 N/m |
-| Suspension damping, $C_s$ | 600 Ns/m |
+| Suspension stiffness, Kₛ | 15,000 N/m |
+| Suspension damping, Cₛ | 600 Ns/m |
 
 The corresponding handling score was:
 
-$$
-\boxed{Score_{Handling}=0.69605}
-$$
+**Score_Handling = 0.69605**
 
-The handling-oriented objective was included to evaluate the same suspension configuration from a different performance-priority perspective.
+The handling-oriented objective was included to evaluate the suspension from a different performance-priority perspective.
+
+The exact individual handling weights are not documented here because they were not independently recovered from the available MATLAB output.
 
 ---
 
@@ -176,15 +139,11 @@ The three objectives therefore provide different numerical evaluations of the sa
 
 ## Optimization Result Consistency
 
-An important observation from the optimization results is that the same suspension parameters were obtained for the different optimization approaches:
+An important observation from the optimization results is that the same suspension parameters were obtained for the evaluated optimization approaches:
 
-$$
-\boxed{K_s=15,000\;N/m}
-$$
+**Kₛ = 15,000 N/m**
 
-$$
-\boxed{C_s=600\;Ns/m}
-$$
+**Cₛ = 600 Ns/m**
 
 The corresponding simulation results were:
 
@@ -218,7 +177,7 @@ Provides a compromise between body acceleration, suspension travel, and tire def
 
 ### Handling
 
-Provides an additional evaluation of the suspension behavior with emphasis on the handling-related performance objective.
+Provides an additional evaluation of suspension behavior using a handling-oriented objective.
 
 ---
 
@@ -226,27 +185,19 @@ Provides an additional evaluation of the suspension behavior with emphasis on th
 
 For the final parameter selection, the balanced weighting was used:
 
-$$
-\boxed{
-J
-=
-0.50a_n
-+
-0.30x_n
-+
-0.20d_n
-}
-$$
+**J = 0.50aₙ + 0.30xₙ + 0.20dₙ**
+
+where:
+
+- **aₙ** = normalized RMS body acceleration
+- **xₙ** = normalized RMS suspension travel
+- **dₙ** = normalized RMS tire deflection
 
 The resulting optimized parameters were:
 
-$$
-\boxed{K_s=15,000\;N/m}
-$$
+**Kₛ = 15,000 N/m**
 
-$$
-\boxed{C_s=600\;Ns/m}
-$$
+**Cₛ = 600 Ns/m**
 
 ---
 
@@ -254,16 +205,12 @@ $$
 
 - The RMS performance metrics were normalized before being combined.
 - Multiple weighting schemes were evaluated.
-- The comfort objective used weights of 0.60, 0.25, and 0.15.
-- The balanced/weighted objective used weights of 0.50, 0.30, and 0.20.
-- The balanced/weighted objective produced a score of 0.65718 for the final configuration.
-- The same optimized suspension parameters were obtained across the evaluated objectives.
+- The comfort objective used weights of **0.60, 0.25, and 0.15**.
+- The balanced/weighted objective used weights of **0.50, 0.30, and 0.20**.
+- The balanced/weighted objective produced a score of **0.65718** for the final configuration.
+- The same optimized suspension parameters were obtained across the evaluated optimization approaches.
 - The final optimized suspension configuration was:
 
-$$
-\boxed{K_s=15,000\;N/m}
-$$
+**Kₛ = 15,000 N/m**
 
-$$
-\boxed{C_s=600\;Ns/m}
-$$
+**Cₛ = 600 Ns/m**
