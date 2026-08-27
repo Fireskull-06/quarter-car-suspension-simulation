@@ -80,7 +80,6 @@ The response following the road disturbance provides the basis for evaluating th
 
 The resulting simulation output was recorded from the Simulink model.
 
-![Baseline Simulation Output](images/2DOF_Output.png)
 
 The output shows the response of the quarter-car system following the road disturbance.
 
