@@ -115,7 +115,7 @@ The RMS performance values obtained from the baseline simulation were recorded a
 
 | Performance Metric | Baseline Value | Unit |
 |---|---:|---|
-| RMS Body Acceleration | *1.1652** | m/s² |
+| RMS Body Acceleration | **1.1652** | m/s² |
 | RMS Suspension Travel | **0.0104** | m |
 | RMS Tire Deflection | **0.0062** | m |
 
