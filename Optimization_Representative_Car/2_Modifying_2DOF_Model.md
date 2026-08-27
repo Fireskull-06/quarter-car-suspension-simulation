@@ -110,7 +110,6 @@ These values define the initial baseline configuration of the suspension system.
 
 The completed block diagram represents the coupled dynamics of the two-degree-of-freedom quarter-car system.
 
-![image alt]([image url](https://github.com/Fireskull-06/quarter-car-suspension-simulation/blob/4a1837108c60715b1a038d722939fb58a20cd62d/Optimization_Representative_Car/Modified_2DOF_Model.png))
 The model was subsequently used to introduce a controlled road disturbance and evaluate the resulting vehicle response.
 
 ---
