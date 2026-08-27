@@ -64,7 +64,7 @@ The following parameters remained unchanged:
 
 ---
 ## Optimized RMS values
-| Performance Metric | Baseline Value | Unit |
+| Performance Metric | Optimized Value | Unit |
 |---|---:|---|
 | RMS Body Acceleration | **0.8338** | m/s² |
 | RMS Suspension Travel | **0.0122** | m |
