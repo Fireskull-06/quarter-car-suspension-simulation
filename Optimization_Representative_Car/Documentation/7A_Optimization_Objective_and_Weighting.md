@@ -60,7 +60,6 @@ The weighting was:
 
 The objective function was:
 
-$$
 J_{comfort}
 =
 0.60a_n
@@ -68,11 +67,11 @@ J_{comfort}
 0.25x_n
 +
 0.15d_n
-$$
+
 
 For the optimized configuration:
 
-$$
+
 J_{comfort}
 =
 0.60(0.46568)
@@ -80,11 +79,11 @@ J_{comfort}
 0.25(0.82617)
 +
 0.15(0.88246)
-$$
 
-$$
+
+
 \boxed{J_{comfort}=0.61832}
-$$
+
 
 This objective places the greatest emphasis on ride comfort.
 
@@ -104,7 +103,7 @@ The weighting was:
 
 The objective function was:
 
-$$
+
 J_{balanced}
 =
 0.50a_n
@@ -112,11 +111,11 @@ J_{balanced}
 0.30x_n
 +
 0.20d_n
-$$
+
 
 For the optimized configuration:
 
-$$
+
 J_{balanced}
 =
 0.50(0.46568)
@@ -124,7 +123,7 @@ J_{balanced}
 0.30(0.82617)
 +
 0.20(0.88246)
-$$
+
 
 $$
 \boxed{J_{balanced}=0.65718}
