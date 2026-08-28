@@ -108,6 +108,8 @@ $$
 For metrics where a lower value represents better performance, a positive percentage indicates an improvement.
 
 ---
+## Simulation Results
+I have added both the Baseline and Optimized simulation graphs in the Images section
 
 ## Response Comparison
 
