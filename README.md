@@ -36,12 +36,4 @@ Building on the optimized passive model, added an active suspension controller u
 - MATLAB / Simulink
 - Control System Toolbox
 
-## Future Work
-
-- Validate against a random road-roughness input in addition to the standardized bump excitation
-- Compare LQR against a semi-active skyhook controller
-- Incorporate frequency-weighted comfort standards into the objective function
-
----
-
-*Detailed results, tables, and plots to be added.*
+ 
