@@ -87,11 +87,11 @@ The baseline and optimized configurations were evaluated using three RMS perform
 
 The results are summarized below.
 
-| Performance Metric | Baseline | Optimized | Change |
+| Performance Metric | Baseline | Optimized | % Change |
 |---|---:|---:|---:|
-| RMS Body Acceleration | **[Insert value]** | **[Insert value]** | **[Insert %]** |
-| RMS Suspension Travel | **[Insert value]** | **[Insert value]** | **[Insert %]** |
-| RMS Tire Deflection | **[Insert value]** | **[Insert value]** | **[Insert %]** |
+| RMS Body Acceleration | **1.3609** | **0.8338** | **38.7317** |
+| RMS Suspension Travel | **0.0104** | **0.0122** | **17.3077** |
+| RMS Tire Deflection | **0.006** | **0.007** | **16.6667** |
 
 ---
 
