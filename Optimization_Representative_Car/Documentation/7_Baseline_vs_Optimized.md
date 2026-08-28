@@ -1,4 +1,4 @@
-# Step 8 — Baseline vs Optimized Performance Comparison
+# Step 7 — Baseline vs Optimized Performance Comparison
 
 ## Overview
 
@@ -123,7 +123,7 @@ The comparison allows the effect of the optimized suspension parameters to be ob
 
 ### Baseline Response
 
-![Baseline Response](images/baseline_output.png)
+![Baseline Response](Optimization_Representative_Car/Images/Baseline_Simulation_Graph.png)
 
 ### Optimized Response
 
