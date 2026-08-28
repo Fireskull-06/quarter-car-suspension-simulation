@@ -123,7 +123,7 @@ The comparison allows the effect of the optimized suspension parameters to be ob
 
 ### Baseline Response
 
-![Baseline Response](Optimization_Representative_Car/Images/Baseline_Simulation_Graph.png)
+![image alt](Optimization_Representative_Car/Images/Baseline_Simulation_Graph.png)
 
 ### Optimized Response
 
