@@ -1,4 +1,4 @@
-# Step 9 — Final Results and Conclusion
+# Step 8 — Final Results and Conclusion
 
 ## Final Model
 
