@@ -121,13 +121,6 @@ $$
 
 The comparison allows the effect of the optimized suspension parameters to be observed directly in the transient response.
 
-### Baseline Response
-
-![image alt](Optimization_Representative_Car/Images/Baseline_Simulation_Graph.png)
-
-### Optimized Response
-
-![Optimized Response](images/optimized_output.png)
 
 ---
 
