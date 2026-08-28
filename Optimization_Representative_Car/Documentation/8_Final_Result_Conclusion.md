@@ -82,7 +82,6 @@ The final comparison between the baseline and optimized configurations is shown 
 
 The exact improvement values are calculated from the simulation outputs.
 We minimized acceleration which increased our comfort at the cost of increased suspension and tire deflection.
-
 ---
 
 ## Overall Outcome
