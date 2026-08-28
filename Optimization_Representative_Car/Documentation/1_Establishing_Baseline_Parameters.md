@@ -1,4 +1,4 @@
-# Establishing Vehicle Parameters
+# Step 1 - Establishing Vehicle Parameters
 
 ## 2-DOF Quarter-Car Suspension Model
 
