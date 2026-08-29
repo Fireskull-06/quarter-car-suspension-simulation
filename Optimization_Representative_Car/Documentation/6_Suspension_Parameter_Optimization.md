@@ -51,8 +51,8 @@ The suspension stiffness and damping were varied while maintaining the remaining
 
 | Parameter | Baseline Value | Optimized Value | Unit |
 |---|---:|---:|---|
-| Suspension stiffness | $K_s = 20,000$ | **$K_s = 15,000$** | N/m |
-| Suspension damping | $C_s = 1,500$ | **$C_s = 600$** | Ns/m |
+| Suspension stiffness | $K_s = 20,000$ | **$K_s = 8000$** | N/m |
+| Suspension damping | $C_s = 1,500$ | **$C_s = 700$** | Ns/m |
 
 The following parameters remained unchanged:
 
@@ -66,9 +66,9 @@ The following parameters remained unchanged:
 ## Optimized RMS values
 | Performance Metric | Optimized Value | Unit |
 |---|---:|---|
-| RMS Body Acceleration | **0.8338** | m/s² |
-| RMS Suspension Travel | **0.0122** | m |
-| RMS Tire Deflection | **0.0070** | m |
+| RMS Body Acceleration | **0.7812** | m/s² |
+| RMS Suspension Travel | **0.01080** | m |
+| RMS Tire Deflection | **0.00720** | m |
 ## Optimization Process
 
 The optimization followed the general process:
