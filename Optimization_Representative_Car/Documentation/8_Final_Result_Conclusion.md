@@ -76,8 +76,8 @@ The final comparison between the baseline and optimized configurations is shown 
 
 | Performance Metric | Baseline | Optimized | Percent Change |
 |---|---:|---:|---:|
-| RMS Body Acceleration | **.5108** | **0.7812** | **48.29% (improvement)** |
-| RMS Suspension Travel | **0.01251** | **0.0108** | **13.66% (improvement)** |
+| RMS Body Acceleration | **0.5108** | **0.7812** | **48.29% (improvement)** |
+| RMS Suspension Travel | **0.0125** | **0.0108** | **13.66% (improvement)** |
 | RMS Tire Deflection | **0.0064** | **0.0072** | **12.44% (trade-off, worse)** |
 
 The exact improvement values are calculated from the simulation outputs.
