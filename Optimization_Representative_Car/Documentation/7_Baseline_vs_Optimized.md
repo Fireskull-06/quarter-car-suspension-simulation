@@ -164,7 +164,7 @@ The final optimized 2-DOF quarter-car model uses:
 
 The baseline and optimized suspension configurations were simulated under identical road and model conditions.
 
-The optimization reduced the suspension stiffness from **20,000 N/m to 15,000 N/m** and the suspension damping from **1,500 Ns/m to 600 Ns/m**.
+The optimization reduced the suspension stiffness from **20,000 N/m to 8000 N/m** and the suspension damping from **1,500 Ns/m to 700 Ns/m**.
 
 The resulting performance metrics provide a quantitative basis for determining the effectiveness of the optimized suspension configuration.
 
