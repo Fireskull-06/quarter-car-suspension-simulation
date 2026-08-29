@@ -114,7 +114,7 @@ The model was subsequently used to introduce a controlled road disturbance and e
 
 ---
 
-## Outcome of Step 3
+## Outcome of Step 2
 
 At the end of this step, a functional **2-DOF quarter-car suspension model** was established in MATLAB Simulink.
 
