@@ -1,4 +1,4 @@
-## 20. Conclusion
+## 15. Conclusion
 
 A 2-DOF quarter-car suspension model was developed and implemented using MATLAB and Simulink. The model was first evaluated as a passive suspension 
 system and then extended with an active suspension actuator controlled using an LQR state-feedback controller.
