@@ -1,4 +1,4 @@
-## 18. Response Plots
+## 14. Response Plots
 
 The time-domain responses of the passive and LQR-controlled suspension systems were plotted using the outputs obtained from the Simulink simulations.
 
