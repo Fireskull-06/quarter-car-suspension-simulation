@@ -9,21 +9,21 @@ controller was selected based on a balance between reducing body acceleration an
 The final LQR controller produced the following results:
 
 ```text
-RMS body acceleration       = 0.5528 m/s²
-RMS suspension travel       = 0.0096 m
-RMS tire deflection         = 0.0067 m
+RMS body acceleration       = 0.7009 m/s²
+RMS suspension travel       = 0.0125 m
+RMS tire deflection         = 0.0077 m
 ```
 
 Compared with the passive suspension:
 
 ```text
-Body acceleration            → 59.2% reduction
-Suspension travel            → 3.0% reduction
-Tire deflection              → 3.1% increase
+Body acceleration            → 53.60% improvement
+Suspension travel            → 0.41% worse (essentially unchanged)
+Tire deflection              → 20.57% worse
 ```
 
 The closed-loop eigenvalues confirmed that the controlled system is stable, with all poles having negative real parts.
 
 Overall, the simulation results demonstrate that the LQR-controlled active suspension can significantly reduce vehicle body acceleration while maintaining
-similar suspension travel and only a small increase in tire deflection. The project demonstrates the complete workflow from physical suspension modeling 
+similar suspension travel and only an increase in tire deflection. The project demonstrates the complete workflow from physical suspension modeling 
 and state-space formulation to controller design, simulation, parameter selection, stability analysis, and performance comparison.
