@@ -52,11 +52,11 @@ $$
 The optimized suspension configuration obtained in Step 7 was:
 
 $$
-K_s = 15,000\;N/m
+K_s = 8000\;N/m
 $$
 
 $$
-C_s = 600\;Ns/m
+C_s = 700\;Ns/m
 $$
 
 The vehicle masses and tire stiffness remained unchanged.
@@ -69,8 +69,8 @@ The vehicle masses and tire stiffness remained unchanged.
 |---|---:|---:|---:|
 | Unsprung mass, $m_1$ | 40 kg | 40 kg | No change |
 | Sprung mass, $m_2$ | 400 kg | 400 kg | No change |
-| Suspension stiffness, $K_s$ | 20,000 N/m | 15,000 N/m | Reduced |
-| Suspension damping, $C_s$ | 1,500 Ns/m | 600 Ns/m | Reduced |
+| Suspension stiffness, $K_s$ | 20,000 N/m | 8000 N/m | Reduced |
+| Suspension damping, $C_s$ | 1,500 Ns/m | 700 Ns/m | Reduced |
 | Tire stiffness, $K_t$ | 190,000 N/m | 190,000 N/m | No change |
 
 The optimization therefore modified only the suspension stiffness and damping.
@@ -89,9 +89,9 @@ The results are summarized below.
 
 | Performance Metric | Baseline | Optimized | % Change |
 |---|---:|---:|---:|
-| RMS Body Acceleration | **1.3609** | **0.8338** | **38.7317** |
+| RMS Body Acceleration | **1.3609** | **0.7812** | **38.7317** |
 | RMS Suspension Travel | **0.0104** | **0.0122** | **17.3077** |
-| RMS Tire Deflection | **0.006** | **0.007** | **16.6667** |
+| RMS Tire Deflection | **0.006** | **0.00720** | **16.6667** |
 
 ---
 
@@ -133,11 +133,11 @@ The comparison between the two configurations provides an objective assessment o
 The optimized suspension parameters:
 
 $$
-K_s = 15,000\;N/m
+K_s = 8000\;N/m
 $$
 
 $$
-C_s = 600\;Ns/m
+C_s = 700\;Ns/m
 $$
 
 were selected based on their overall performance across the defined suspension metrics.
@@ -154,8 +154,8 @@ The final optimized 2-DOF quarter-car model uses:
 |---|---:|---|
 | Unsprung mass, $m_1$ | 40 | kg |
 | Sprung mass, $m_2$ | 400 | kg |
-| Suspension stiffness, $K_s$ | **15,000** | N/m |
-| Suspension damping, $C_s$ | **600** | Ns/m |
+| Suspension stiffness, $K_s$ | **8000** | N/m |
+| Suspension damping, $C_s$ | **700** | Ns/m |
 | Tire stiffness, $K_t$ | 190,000 | N/m |
 
 ---
