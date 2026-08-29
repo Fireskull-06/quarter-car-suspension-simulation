@@ -22,7 +22,7 @@ The passive suspension is simulated using the same system parameters and road pr
 
 The simulation uses:
 
-- Simulation duration = 2 s
+- Simulation duration = 10 s
 - Sampling time = 0.005 s
 - Road bump height = 0.05 m
 - Bump start time = 1.36 s
@@ -72,8 +72,8 @@ The final passive simulation produced the following RMS values:
 
 | Performance Metric | Passive Suspension |
 |---|---:|
-| RMS body acceleration | 1.3536 m/s² |
-| RMS suspension travel | 0.0099 m |
-| RMS tire deflection | 0.0065 m |
+| RMS body acceleration | 1.5108 m/s² |
+| RMS suspension travel | 0.0125 m |
+| RMS tire deflection | 0.0064 m |
 
 These values are used as the baseline for the active suspension evaluation in the subsequent sections.
