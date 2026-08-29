@@ -1,4 +1,4 @@
-## 14. Final LQR Controller
+## 12. Final LQR Controller
 
 Based on the parameter sweep, the selected LQR weighting parameters were:
 
