@@ -89,9 +89,9 @@ The results are summarized below.
 
 | Performance Metric | Baseline | Optimized | % Change |
 |---|---:|---:|---:|
-| RMS Body Acceleration | **1.3609** | **0.7812** | **38.7317** |
-| RMS Suspension Travel | **0.0104** | **0.0122** | **17.3077** |
-| RMS Tire Deflection | **0.006** | **0.00720** | **16.6667** |
+| RMS Body Acceleration | **1.5108** | **0.7812** | **	48.29% (improvement)** |
+| RMS Suspension Travel | **	0.0125** | **0.0122** | **13.66% (improvement)** |
+| RMS Tire Deflection | **	0.0064** | **0.00720** | **12.44% (trade-off, worse)** |
 
 ---
 
