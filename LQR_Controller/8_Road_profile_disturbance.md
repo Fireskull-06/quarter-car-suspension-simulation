@@ -10,7 +10,7 @@ The road disturbance is defined as a 50 mm vertical bump:
 
 | Parameter | Value |
 |---|---:|
-| Simulation duration | 2 s |
+| Simulation duration | 10 s |
 | Sampling time | 0.005 s |
 | Bump height | 0.05 m (50 mm) |
 | Bump start time | 1.36 s |
