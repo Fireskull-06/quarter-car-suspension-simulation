@@ -1,4 +1,4 @@
-## 16. Active Suspension Simulation
+## 13. Active Suspension Simulation
 
 After verifying the stability of the final LQR controller, the controller was implemented in the Simulink quarter-car model and evaluated under the same road disturbance used for the passive suspension simulation.
 
@@ -9,7 +9,7 @@ The purpose of this simulation is to determine how the active suspension respond
 The active suspension simulation uses the same physical parameters and road profile as the passive baseline.
 
 ```text
-Simulation duration = 2 s
+Simulation duration = 10 s
 Sampling time       = 0.005 s
 Bump height         = 0.05 m
 Bump start time     = 1.36 s
@@ -53,10 +53,10 @@ The final active suspension simulation produced:
 
 | Performance Metric | LQR Active Suspension |
 |---|---:|
-| RMS body acceleration | 0.5528 m/s² |
-| RMS suspension travel | 0.0096 m |
-| RMS tire deflection | 0.0067 m |
+| RMS body acceleration | 0.7009 m/s² |
+| RMS suspension travel | 0.0125 m |
+| RMS tire deflection | 	0.0077 m |
 
-The RMS body acceleration is substantially lower than the passive baseline, indicating a significant improvement in ride comfort.
+The RMS body acceleration is lower than the passive baseline, indicating a significant improvement in ride comfort.
 
 The active suspension results are compared directly with the passive suspension results in the following section.
