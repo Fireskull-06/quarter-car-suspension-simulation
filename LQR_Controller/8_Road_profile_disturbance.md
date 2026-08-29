@@ -24,7 +24,7 @@ The road profile is generated in MATLAB using:
 
 ```matlab
 dt = 0.005;
-t = (0:dt:2)';
+t = (0:dt:10)';
 
 z0 = zeros(size(t));
 
