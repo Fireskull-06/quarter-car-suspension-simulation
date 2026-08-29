@@ -25,8 +25,8 @@ The final optimized model uses the following parameters:
 |---|---:|---:|---|
 | Unsprung mass | $m_1$ | 40 | kg |
 | Sprung mass | $m_2$ | 400 | kg |
-| Suspension stiffness | $K_s$ | **15,000** | N/m |
-| Suspension damping | $C_s$ | **600** | Ns/m |
+| Suspension stiffness | $K_s$ | **8000** | N/m |
+| Suspension damping | $C_s$ | **700** | Ns/m |
 | Tire stiffness | $K_t$ | 190,000 | N/m |
 
 The vehicle masses and tire stiffness were kept constant, while the suspension stiffness and damping were optimized.
@@ -37,8 +37,8 @@ The vehicle masses and tire stiffness were kept constant, while the suspension s
 
 | Parameter | Baseline | Optimized |
 |---|---:|---:|
-| Suspension stiffness, $K_s$ | 20,000 N/m | **15,000 N/m** |
-| Suspension damping, $C_s$ | 1,500 Ns/m | **600 Ns/m** |
+| Suspension stiffness, $K_s$ | 20,000 N/m | **8000 N/m** |
+| Suspension damping, $C_s$ | 1,500 Ns/m | **700 Ns/m** |
 
 The optimization resulted in a reduction of both suspension stiffness and damping relative to the baseline configuration.
 
@@ -76,9 +76,9 @@ The final comparison between the baseline and optimized configurations is shown 
 
 | Performance Metric | Baseline | Optimized | Percent Change |
 |---|---:|---:|---:|
-| RMS Body Acceleration | **1.3609** | **0.8338** | **38.7317** |
-| RMS Suspension Travel | **0.0104** | **0.0122** | **17.3077** |
-| RMS Tire Deflection | **0.006** | **0.007** | **16.6667** |
+| RMS Body Acceleration | **.5108** | **0.7812** | **48.29% (improvement)** |
+| RMS Suspension Travel | **0.01251** | **0.0108** | **13.66% (improvement)** |
+| RMS Tire Deflection | **0.0064** | **0.0072** | **12.44% (trade-off, worse)** |
 
 The exact improvement values are calculated from the simulation outputs.
 **We minimized acceleration which increased our comfort at the cost of increased suspension and tire deflection.**
