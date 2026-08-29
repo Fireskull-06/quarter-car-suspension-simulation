@@ -15,7 +15,7 @@ RMS_body_accel = rms(body_accel)
 The passive suspension produced:
 
 ```text
-RMS body acceleration = 1.3536 m/s^2
+RMS body acceleration = 1.5108 m/s^2
 ```
 
 ### RMS Suspension Travel
@@ -35,7 +35,7 @@ RMS_susp_travel = rms(susp_travel)
 The passive suspension produced:
 
 ```text
-RMS suspension travel = 0.0099 m
+RMS suspension travel = 0.0125 m
 ```
 
 ### RMS Tire Deflection
@@ -55,7 +55,7 @@ RMS_tire_deflection = rms(tire_deflection)
 The passive suspension produced:
 
 ```text
-RMS tire deflection = 0.0065 m
+RMS tire deflection = 	0.0064 m
 ```
 
 ### Passive Baseline
@@ -64,9 +64,9 @@ The final passive suspension performance is summarized below:
 
 | Performance Metric | RMS Value |
 |---|---:|
-| Body acceleration | 1.3536 m/s² |
-| Suspension travel | 0.0099 m |
-| Tire deflection | 0.0065 m |
+| Body acceleration | 1.5108 m/s² |
+| Suspension travel | 0.0125 m |
+| Tire deflection | 0.0064 m |
 
 These values are treated as the **baseline performance** for evaluating the LQR-controlled active suspension.
 
