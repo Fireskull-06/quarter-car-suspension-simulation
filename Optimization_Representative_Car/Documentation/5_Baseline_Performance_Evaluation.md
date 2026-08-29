@@ -158,7 +158,7 @@ This allows the effect of changing the suspension stiffness and damping to be ev
 
 ---
 
-## Outcome of Step 6
+## Outcome of Step 5
 
 The baseline suspension performance was quantified using RMS body acceleration, RMS suspension travel, and RMS tire deflection.
 
