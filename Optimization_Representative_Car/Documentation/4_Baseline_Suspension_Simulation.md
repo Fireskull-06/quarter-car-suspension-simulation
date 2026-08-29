@@ -115,7 +115,7 @@ These metrics were calculated from the simulation data and used to establish the
 
 ---
 
-## Outcome of Step 5
+## Outcome of Step 4
 
 The baseline 2-DOF suspension simulation was successfully completed using the original suspension stiffness and damping values.
 
